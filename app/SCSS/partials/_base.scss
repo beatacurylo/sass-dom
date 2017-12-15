@@ -1,0 +1,43 @@
+body {
+    color: $light-grey;
+    font-family: $ff-ss;
+    line-height: 1.5;
+    background: $white;
+    display: inline-block;
+    margin-left: 5%;
+    
+}
+h1,
+h2,
+{
+    margin-top:0;
+    margin-bottom: .25em;
+    
+    
+}
+h1{
+    
+    line-height: 1;
+    font-size: 60px;
+}
+h2{
+font-family: DroidSerifItalic;;
+    font-size: 40px;
+    font-weight: 300;
+}
+button{
+    color:white;
+    background-color: $blue;
+    transition: all 0.4s;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-transform: uppercase;
+    
+}
+
+button:hover {
+    background-color: #FFF;
+    color: #0ED8D6;}

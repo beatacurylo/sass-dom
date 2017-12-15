@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,900&subset=latin-ext');
+$ff-ss: 'Montserrat', sans-serif;
+
+$fw-n: 400;
+$fw-b: 900;
+$fw-l: 300;
+
+@mixin sans-serif($fs, $fl: .3em, $color:blue){
+    font-size: $fs;
+    latter-spacing:.5em ;
+}
+
+@font-face {
+    font-family: DroidSerifItalic;
+    src: url('../fonts/DroidSerif-italic.ttf');
+    font-style: italic;
+}
+@font-face {
+    font-family: DroidSerifRegular;
+    src: url('../fonts/DroidSerif-Regular.ttf');
+    font-style: regular;}
+    

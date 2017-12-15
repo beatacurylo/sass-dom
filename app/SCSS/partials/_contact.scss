@@ -1,0 +1,48 @@
+#contact {
+    color: $white;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/footer/world-map.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 5%;
+    form {
+        display: inline-block;
+
+        width: 45%
+    }
+    input:not([type="submit"]),
+    textarea {
+        width: 90%;
+        height: 40px;
+        padding: 5px 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+    textarea {
+        height: 125px;
+
+
+    }
+
+    input[type="submit"] {
+        background-color: rgb(14, 216, 214);
+        border: 1px solid rgb(14, 216, 214);
+        color: #FFF;
+        text-transform: uppercase;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 20px;
+        transition: all 0.4s;
+    }
+    input[type="submit"]:hover {
+        background-color: #FFF;
+        color: rgb(14, 216, 214);
+    }
+}
